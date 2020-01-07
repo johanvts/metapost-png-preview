@@ -28,3 +28,6 @@ Simply load the file
 
 - Add as a Melpa package.
 - Fix some trouble with opening multiple Metapost output buffers.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
