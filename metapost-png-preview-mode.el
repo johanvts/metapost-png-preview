@@ -72,7 +72,9 @@
                              buffer-name))
          (old-buffer (get-buffer buffer-string)))
     (if old-buffer
-        (kill-buffer old-buffer))
+        (progn
+	  (setq old-window (get-buffer-window old-buffer))
+	  (quit-window t old-window)))
     (get-buffer-create buffer-string)))
 
 (defun metapost-locate-figure-no ()
