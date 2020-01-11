@@ -27,4 +27,4 @@ Simply load the file
 ## ToDo
 
 - Add as a Melpa package.
-- Fix some trouble with opening multiple Metapost output buffers.
+- Testing, especially on non Windows10/miktex setups.
