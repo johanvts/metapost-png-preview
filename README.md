@@ -28,3 +28,6 @@ Simply load the file
 
 - Add as a Melpa package.
 - Testing, especially on non Windows10/miktex setups.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
