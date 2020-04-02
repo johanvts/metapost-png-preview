@@ -28,11 +28,6 @@ Simply load the file
 
 - Add as a Melpa package.
     -  Package-lint found these issues that should be fixed before adding to MELPA:
-    -  16 issues found:
-    -  1:0: warning: "Version:" or "Package-Version:" header is missing. MELPA will handle this, but other archives will not.
-    -  1:0: error: Package should have a ;;; Commentary section.
-    -  1:0: error: Package should have a Homepage or URL header.
-    -  1:0: error: package.el cannot parse this buffer: Package lacks a file header
     -  7:0: error: "metapost-prev-outputformat" doesn't start with package's prefix "metapost-png-preview".
     -  11:0: error: "metapost-prog-mpost" doesn't start with package's prefix "metapost-png-preview".
     -  15:0: error: "metapost-regex-find-first-match" doesn't start with package's prefix "metapost-png-preview".
