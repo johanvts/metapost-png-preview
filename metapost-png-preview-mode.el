@@ -1,8 +1,18 @@
-;;; metapost-png-preview-mode.el
+;;; metapost-png-preview-mode.el --- PNG preview of metapost buffers
+
+;; Author: Johan Sivertsen <johanvts@gmail.com>
+;; URL: https://github.com/johanvts/metapost-png-preview
+;; Keywords: multimedia
+;; Version: 0
+;; Package-Requires: ((emacs "24.3"))
+
+;;; Commentary:
+
+;; Provides PNG based preview of metapost buffers.
+
+;;; Code:
 
 (require 'image-mode)
-
-;;;; Internal variables
 
 (defvar metapost-prev-outputformat
   nil
