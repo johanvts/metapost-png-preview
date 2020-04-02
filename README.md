@@ -39,7 +39,6 @@ Simply load the file
     -  69:0: error: "metapost-prepare-buffer" doesn't start with package's prefix "metapost-png-preview".
     -  80:0: error: "metapost-locate-figure-no" doesn't start with package's prefix "metapost-png-preview".
     -  118:0: error: "metapost-png-next" doesn't start with package's prefix "metapost-png-preview".
-    -  134:18: error: You should depend on (emacs "24.3") if you need `display-buffer-below-selected'.
 - Testing, especially on non Windows10/miktex setups.
 
 ## License
